@@ -2,8 +2,8 @@ require("hyprland.general")
 require("hyprland.keybinds")
 require("hyprland.colors")
 require("hyprland.variables")
-require("hyprland.rules")
-
+require("hyprland.rules") 
+require("hyprland.execs") 
 ------------------
 ---- MONITORS ----
 ------------------
@@ -212,7 +212,7 @@ hl.config({
         sensitivity = 0, -- -1.0 - 1.0, 0 means no modification.
 
         touchpad = {
-            natural_scroll = false,
+            natural_scroll = true,
         },
     },
 })
